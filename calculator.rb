@@ -32,7 +32,7 @@ class Calculator
       end
       return result
     end
-  
+    
     def add
       raise_if_insufficient_operands :addition
       first_value, second_value = @stack.pop(2)
